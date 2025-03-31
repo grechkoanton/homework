@@ -19,5 +19,14 @@ public class Main {
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
+        //dog уменьшить на 3.5; cat уменьшить на 1.6; paper уменьшить на 7639
+        //Выведите в консоль новые значения переменных
+        System.out.println();
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
     }
 }
