@@ -68,5 +68,10 @@ public class Main {
         var theBoxerTwo = 82.7;
         System.out.println("Общая масса двух бойцов " + (theBoxerOne + theBoxerTwo) + " кг.");
         System.out.println("Разница между массами бойцов " + (theBoxerTwo - theBoxerOne) + " кг.");
+        //Найдите остаток от деления между двумя весами.
+        // Для решения этой задачи используйте тип переменной var.
+        System.out.println();
+        var remains = theBoxerTwo % theBoxerOne;
+        System.out.println("Остаток от деления между двумя весами бойцов: " + remains + " кг");
     }
 }
