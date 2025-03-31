@@ -40,5 +40,20 @@ public class Main {
         System.out.println(friend);
         friend = friend / 7;
         System.out.println(friend);
+        //Инициализируйте переменную frog значением 3.5
+        //Увеличьте переменную в 10 раз и поделите на 3.5.
+        // Добавьте к последнему значению переменной 4.
+        //После каждой операции выводите значение переменной в консоль.
+        // В итоге у вас должно быть выведено 4 значения одной переменной.
+        //Для решения этой задачи используйте тип переменной var.
+        System.out.println();
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
     }
 }
