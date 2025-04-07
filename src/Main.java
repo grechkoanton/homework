@@ -92,5 +92,6 @@ public class Main {
         workHours = totalEmployee * oneEmployee;
         System.out.println("Если в компании работает " + totalEmployee + " человек, то всего " + workHours + " часов работы может быть поделено между сотрудниками.");
 
+
     }
 }
